@@ -13,6 +13,7 @@ import { Router } from '@angular/router';
 export class LoginComponent {
   loading = false;
   error = '';
+  hidePassword = true;
 
   loginForm: FormGroup;
 

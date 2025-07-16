@@ -64,7 +64,10 @@ table {
   color: #3f51b5;
 }
 
-/* Responsive design */
+.refresh-btn {
+  margin-right: 8px;
+}
+ 
 @media (max-width: 768px) {
   .listing-container {
     padding: 10px;
@@ -78,8 +81,7 @@ table {
     width: 25%;
   }
 }
-
-/* No data row styling */
+ 
 tr.mat-row:nth-child(odd) {
   background-color: #f9f9f9;
 }
